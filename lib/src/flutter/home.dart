@@ -19,6 +19,12 @@ class Home extends StatelessWidget {
               );
             },
           ),
+          IconButton(
+            icon: Icon(Icons.pageview),
+            onPressed: () {
+              Navigator.pushNamed(context, '/show-transactions');
+            },
+          ),
         ],
       ),
       body: DefaultTextStyle(
