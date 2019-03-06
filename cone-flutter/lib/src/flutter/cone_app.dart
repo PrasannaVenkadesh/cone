@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:cone/src/flutter/home.dart';
 import 'package:cone/src/flutter/add_transaction.dart';
-import 'package:cone/src/flutter/show_transactions.dart';
 
 class ConeApp extends StatelessWidget {
   @override
@@ -18,7 +17,6 @@ class ConeApp extends StatelessWidget {
       routes: {
         '/': (context) => Home(),
         '/add-transaction': (context) => AddTransaction(),
-        '/show-transactions': (context) => ShowTransactions(),
       },
     );
   }
