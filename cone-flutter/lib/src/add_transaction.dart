@@ -5,9 +5,9 @@ import 'package:intl/intl.dart';
 import 'package:path/path.dart' as p;
 import 'package:simple_permissions/simple_permissions.dart';
 
-import 'package:cone/src/flutter/transaction.dart';
-import 'package:cone/src/flutter/posting_widget.dart';
-import 'package:cone/src/flutter/posting_blob.dart';
+import 'package:cone/src/transaction.dart';
+import 'package:cone/src/posting_widget.dart';
+import 'package:cone/src/posting_blob.dart';
 
 class AddTransaction extends StatefulWidget {
   AddTransactionState createState() => AddTransactionState();

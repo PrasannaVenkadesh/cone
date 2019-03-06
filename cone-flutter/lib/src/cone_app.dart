@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:cone/src/flutter/home.dart';
-import 'package:cone/src/flutter/add_transaction.dart';
+import 'package:cone/src/home.dart';
+import 'package:cone/src/add_transaction.dart';
 
 class ConeApp extends StatelessWidget {
   @override
